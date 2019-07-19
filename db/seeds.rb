@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+sam = Owner.create(name: "Sam's Snacks")
+drew = Owner.create(name: "Drew's Drinks")
+sam.machines.create(location: "Don's Mixed Drinks")
+sam.machines.create(location: "Turing Basement")
